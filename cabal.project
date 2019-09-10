@@ -1,0 +1,13 @@
+packages: .
+
+source-repository-package
+  type: git
+  location: https://github.com/noinia/hgeometry.git
+  tag: 44ce9c57174cbe648e65885032bc83306438f818
+  subdir: hgeometry
+
+source-repository-package
+  type: git
+  location: https://github.com/noinia/hgeometry.git
+  tag: 44ce9c57174cbe648e65885032bc83306438f818
+  subdir: hgeometry-combinatorial
