@@ -51,5 +51,4 @@ main = runM . evalRandomIO $ do
   let disp  = Gloss.InWindow "Logos v0.1" (round maxX, round maxY) (400, 400)
   traverse_ (liftIO . print) tagged
   let triangles = Delaunay.delaunayTriangulation (NonEmpty.fromList tagged)
-  liftIO $ do
-    Gloss.display disp Gloss.white (drawPoints triangles)
+  liftIO $ print triangles
