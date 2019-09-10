@@ -29,6 +29,7 @@ executable voronoid
                      , fused-effects ^>= 0.5
                      , gloss ^>= 1.13
                      , hgeometry ^>= 0.8
+                     , lens
                      , hgeometry-combinatorial ^>= 0.8
                      , MonadRandom ^>= 0.5
 
